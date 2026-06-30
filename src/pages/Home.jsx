@@ -5,6 +5,7 @@ import Card from "../components/Card";
 import { food_items } from "../food";
 import { datacontext } from "../context/UserContext";
 import { FaTrash } from "react-icons/fa";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const {
@@ -142,6 +143,7 @@ const Home = () => {
           )}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
